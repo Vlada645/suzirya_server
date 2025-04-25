@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Код</title>
+    <style>
+        .qr-code {
+            width: 200px; /* Ви можете змінити розмір */
+            height: 200px;
+            background-image: url('data:image/png;base64,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');
+            background-size: cover;
+            border: 1px solid #000; /* Додати рамку, якщо потрібно */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px auto; /* Центрування */
+        }
+    </style>
+</head>
+<body>
+    <div class="qr-code"></div>
+</body>
+</html>
